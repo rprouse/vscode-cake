@@ -1,0 +1,20 @@
+{
+	"name": "cake",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "Rob Prouse",
+	"contributes": {
+		"languages": [{
+			"id": "cs",
+			"aliases": ["C# Cake File", "cs"],
+			"extensions": [".cake"]
+		}],
+		"grammars": [{
+			"language": "cs",
+			"scopeName": "source.cs",
+			"path": "./syntaxes/cs.tmLanguage"
+		}]
+	}
+}
